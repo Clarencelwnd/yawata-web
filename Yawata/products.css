@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  
+  .logo-yawata img{
+  height: 70px;
+  padding-top: 8px ;
+  }
+
+  .logo-yawata{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .menu li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+  }
+
+
+
+
+
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .products-container {
+    display: flex;
+    flex-wrap: wrap; /*Menambahkan wrap agar gambar-gambar berada dalam satu baris */
+    justify-content: center; /* Menyusun gambar secara horisontal ke tengah */
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .product {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 10px 30px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 85%;
+  }
+  
+.caption {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  .footer-section{
+    background-color: rgb(208, 55, 48);
+    color: white;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo-footer{
+    background-color: white;
+    width: auto;
+    border: 1px solid #ddd;
+    border-top-right-radius: 12px; 
+    border-bottom-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-right: 35px;
+    padding: 12px 15px 0 0 ;
+}
+
+.company-info {
+    flex: 1 1 0;
+   padding: 0 80px 0 30px;
+}
+
+.company-name {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.company-address {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-menu {
+    flex: 1 1 0;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}

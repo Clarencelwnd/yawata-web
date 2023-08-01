@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yawata Homepage</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+          
+        <div class="logo-yawata"><img src="./aset/yawata-logo.png" alt=""></div>
+        
+        <header>
+            <nav>
+              <ul class="menu">
+                <li><a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="video.html">VIDEO</a></li>
+                <li><a href="download.html">DOWNLOAD</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="aset/Yawata all.jpg" alt="Gambar 1"></div>
+                <div class="slide"><img src="aset/Yawata FT-51.jpg" alt="Gambar 2"></div>
+                <div class="slide"><img src="aset/Yawata 7018.jpg" alt="Gambar 3"></div>
+                <div class="slide"><img src="aset/Yawata L-55.jpg" alt="Gambar 4"></div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            <div class="indicators">
+                <span class="indicator" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+                <span class="indicator" onclick="currentSlide(3)"></span>
+                <span class="indicator" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+
+    </section>
+
+
+
+    <section class="body">
+
+        <div class="ABOUT"> 
+            <div class="title">
+                <h2>ABOUT US</h2>
+            </div>
+        <div class="about-section">
+            <div class="about-image">
+                <img src="aset/img-about-grid-04.jpg" alt="About Us Image">
+            </div>
+            <div class="about-content">
+                <p>
+                    YAWATA Co., Ltd. was named after the city of Yawata, which is now part of Kitakyushu City. In the
+northern part of Kyushu Japan Yawata used to be famous for steelworks, and used to be the location of
+Yawata  Ironworks, an important steel mill that helped develop Japan into an industrialized nation.
+Yawata began in 1973 when the Lertwilai (Thailand), a leader in welding rods and welding equipment,
+joins Nippon Steel Welding Products and Engineering Co., Ltd. to establish YAWATA Co., Ltd. together,
+and with Japanese technology combined with the craftsmanship of Thai people, YAWATA is committed
+to producing only the highest quality products for customers.
+Over the past 50 years, YAWATA has helped develop the industry in Thailand by producing welding rods
+for a wide range of industries ranging from construction, transportation, petrochemicals to the energy
+industry.
+                </p>
+                <div class="logo-images">
+                    <img src="aset/WCM Logo BLUE.jpg" alt="Logo 1">
+                    <img src="aset/logo-bureau.png" alt="Logo 2">
+                    <img src="aset/DNV_logo_RGB.jpg" alt="Logo 3">
+                    <img src="aset/logo.png" alt="Logo 4">
+                    <img src="aset/logo-02.png" alt="Logo 5">
+                    <img src="aset/logo-03.png" alt="Logo 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-section">
+
+        <h2>OUR PRODUCT</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="aset/ft-51.png" alt="Product 1">
+                <p class="product-name">FT-51</p>
+            </div>
+            <div class="product-item">
+                <img src="aset/L-55.png" alt="Product 2">
+                <p class="product-name">L-55</p>
+            </div>
+            <div class="product-item">
+                <img src="aset/7018.png" alt="Product 3">
+                <p class="product-name">7018</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-section">
+        <h2>VIDEO</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <video controls>
+                    <source src="aset/Yawata 7018 Vertical up_.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- <div class="play-icon"></div> -->
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="aset/Yawata FT 51 4.0mm AC135Amp.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- <div class="play-icon"></div> -->
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="aset/YAWATA FT-51_sub indo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- <div class="play-icon"></div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script-video.js"></script>
+    </section>
+
+
+
+    <section class="footer">
+        <footer class="footer-section">
+            <div class="logo-footer">
+               <img src="aset/yawata-logo.png" height="70px"  alt="">
+            </div>
+            <div class="company-info">
+                <h3 class="company-name">PT. MULTI SURYA TERUS MAJU</h3>
+                <p class="company-address">Jl. Perniagaan Timur 32C Jakarta Barat
+                    Jakarta, Indonesia - 11230</p>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT US</li>
+                    <li>PRODUCTS</li>
+                    <li>VIDEO</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li>DOWNLOAD</li>
+                    <li>CONTACT US</li>
+                    <li>HELP</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </footer>
+
+    </section>
+</body>
+</html>
